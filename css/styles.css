@@ -25,7 +25,7 @@ a{
 .navbar {
   padding: 0.5rem 1rem;
   margin: 0;
-  background-color: #eeeeee;
+  background-color: #212529;
   border-radius: 25px;
 
 }
@@ -65,9 +65,10 @@ a{
 }
 .expertise-btn{
   margin: 7px 5px;
+
 }
-.expertise-btn :hover{
-  outline-color: #f0a500;
+.expertise-btn:hover{
+  color: #fa7d09;
 }
 
 
@@ -111,4 +112,9 @@ a{
 }
 .contact-icons{
   margin-right: 10px;
+}
+
+
+#footer div,p{
+  padding: 0;
 }
