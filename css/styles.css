@@ -25,13 +25,15 @@ a{
 .navbar {
   padding: 0.5rem 1rem;
   margin: 0;
+  background-color: #eeeeee;
+  border-radius: 25px;
 
 }
 .nav-item{
   padding: 0 18px;
 }
 .nav-link {
-  font-weight: 500;
+
 }
 
 
@@ -64,11 +66,14 @@ a{
 .expertise-btn{
   margin: 7px 5px;
 }
+.expertise-btn :hover{
+  outline-color: #f0a500;
+}
 
 
 /* Work */
-.works-page{
-  background-image: url("../images/bg-2.jpg");
+.stripe-background{
+  background-image: url("../images/Lines-6.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left bottom;
@@ -81,6 +86,23 @@ a{
 }
 .work-history{
   padding: 0 40px;
+}
+
+
+
+.white-box{
+  background-color: white;
+  padding: 100px 20px;
+  border-radius: 25px;
+}
+.grey-box{
+  background-color: #DBDFE2;
+  padding: 100px 20px;
+  border-radius: 25px;
+}
+.padding-adjustment{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Contact Details */
