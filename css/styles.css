@@ -25,10 +25,13 @@ a{
 .navbar {
   padding: 0.5rem 1rem;
   margin: 0;
-  background-color: #212529;
   border-radius: 25px;
-
+  background-color: #eeeeee;
 }
+.logo{
+  max-width: 300px;
+}
+
 .nav-item{
   padding: 0 18px;
 }
@@ -120,4 +123,9 @@ a{
 
 #footer div,p{
   padding: 0;
+}
+
+@media (max-width:500px) {
+  .logo{
+    max-width: 200px;
 }
