@@ -18,7 +18,9 @@ a{
 .container-fluid{
   padding: 3% 10%;
 }
-
+.row{
+  margin: 0;
+}
 /* Style adjustments */
 .white-box{
   background-color: white;
@@ -28,11 +30,16 @@ a{
 .grey-box{
   background-color: #DBDFE2;
   padding: 35px 20px;
+  border: 0.1rem solid #fa7d09;;
   border-radius: 25px;
 }
+.grey-box h3, .white-box h3{
+  padding-bottom: 30px;
+
+}
 .padding-adjustment{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 
@@ -112,12 +119,7 @@ a{
   height: 100%;
   width: 100%;
 }
-#works .row{
-  margin: 50px 0;
-}
-#works h3{
-  margin-top: 8px;
-}
+
 .work-history{
   padding: 0 40px;
 }
@@ -144,7 +146,7 @@ a{
     max-width: 200px;
   }
   .padding-adjustment{
-    padding: 10px 5px;
+    padding: 30px 10px;
   }
   .white-box{
     border-radius: 10;
@@ -154,4 +156,11 @@ a{
     border-radius: 20;
     padding: 10px 0 15px;
   }
+  .grey-box h3, .white-box h3{
+    padding: 10px 30px 15px;
+  }
+  .col-lg-6 img{
+    margin-bottom: 20px;
+  }
+
 }
