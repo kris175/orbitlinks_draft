@@ -8,18 +8,33 @@ p{
 a{
   color: black;
 }
-
 .big-heading{
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
-
 /* Containers */
 .container-fluid{
   padding: 3% 10%;
 }
+
+/* Style adjustments */
+.white-box{
+  background-color: white;
+  padding: 35px 20px;
+  border-radius: 25px;
+}
+.grey-box{
+  background-color: #DBDFE2;
+  padding: 35px 20px;
+  border-radius: 25px;
+}
+.padding-adjustment{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 /* Nav Bar */
 .navbar {
@@ -70,7 +85,19 @@ a{
   margin: 7px 5px;
 
 }
+/* .expertise-btn {
+	background-color:transparent;
+	border-radius:10px;
+	border:0.1rem solid #fa7d09;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	padding:10px 36px;
+	text-decoration:none;
+    margin: 7px 5px;
+} */
 .expertise-btn:hover{
+  background-color:  black;
   color: #fa7d09;
 }
 
@@ -96,22 +123,6 @@ a{
 }
 
 
-
-.white-box{
-  background-color: white;
-  padding: 35px 20px;
-  border-radius: 25px;
-}
-.grey-box{
-  background-color: #DBDFE2;
-  padding: 35px 20px;
-  border-radius: 25px;
-}
-.padding-adjustment{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 /* Contact Details */
 .contact-item{
   padding: 10px;
@@ -120,12 +131,27 @@ a{
   margin-right: 10px;
 }
 
-
+/* Footer */
 #footer div,p{
   padding: 0;
+}
+.footer-icons{
+  color:  #fa7d09;
 }
 
 @media (max-width:500px) {
   .logo{
     max-width: 200px;
+  }
+  .padding-adjustment{
+    padding: 10px 5px;
+  }
+  .white-box{
+    border-radius: 10;
+    padding: 10px 0 15px;
+  }
+  .grey-box{
+    border-radius: 20;
+    padding: 10px 0 15px;
+  }
 }
