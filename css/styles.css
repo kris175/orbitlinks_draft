@@ -49,6 +49,7 @@ a{
   margin: 0;
   border-radius: 25px;
   background-color: #eeeeee;
+  /* #eeeeee; */
 }
 .logo{
   max-width: 300px;
@@ -142,6 +143,9 @@ a{
 }
 
 @media (max-width:500px) {
+  #landing-page{
+    background-size: auto;
+  }
   .logo{
     max-width: 200px;
   }
